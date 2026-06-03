@@ -1,0 +1,3 @@
+overrides:
+  sugarss: "^5.0.1"
+  lodash: "4.17.23"
