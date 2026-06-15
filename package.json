@@ -1,0 +1,24 @@
+{
+  "name": "media-mixer",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Response helpers showcase — every content type (image, audio, binary, html, xml, css, js)",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "mcp-use build",
+    "dev": "mcp-use dev",
+    "start": "mcp-use start",
+    "deploy": "mcp-use deploy",
+    "postinstall": "mcp-use generate-types || true"
+  },
+  "dependencies": {
+    "mcp-use": "1.22.1",
+    "zod": "4.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
